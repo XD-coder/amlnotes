@@ -1,0 +1,16 @@
+# Vercel Ignore File
+# Files/folders to ignore during deployment
+
+node_modules
+.git
+.gitignore
+npm-debug.log
+README.md
+DEPLOYMENT.md
+QUICKSTART.md
+.env.example
+.DS_Store
+*.pem
+Dockerfile
+docker-compose.yml
+.dockerignore
