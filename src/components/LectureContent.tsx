@@ -79,7 +79,7 @@ export default function LectureContent({
               </ol>
             ),
             li: ({ children }) => <li className="my-1">{children}</li>,
-            code: ({ inline, children }) =>
+            code: ({ inline, children }: { inline?: boolean; children?: React.ReactNode }) =>
               inline ? (
                 <code className="bg-gray-100 text-red-600 px-2 py-1 rounded font-mono text-sm">
                   {children}
